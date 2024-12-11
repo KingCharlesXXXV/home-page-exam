@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>E-Commerce Site</title>
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	
+	<body>
+		<!-- Start NavBar -->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+		  <div class="container-fluid ">
+		    <a class="navbar-brand " href="#">JY Store</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    
+		    <div class="collapse navbar-collapse " id="navbarNav">
+		      <ul class="navbar-nav ms-auto">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Products</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Contact</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!-- End of Navbar -->
+
+		<section class="hero-section text-center mb-4">
+		    <div class="container px-4 py-5">
+		        <h1 class="display-4 display-5-sm">Be a Game Changer</h1>
+		        <p class="lead">Find sports gear, apparel, and merchandise to fit your play style.</p>
+		        <a href="#" class="btn btn-primary btn-lg">Shop Now</a>
+		    </div>
+		</section>
+
+<!-- CAROUSEL -->
+		<div class="container py-5">
+		    <div class="row">
+		        <!-- Carousel Column -->
+		        <div class="col-md-6 col-12 mb-4">
+		            <div id="merchCarousel" class="carousel slide" data-bs-ride="carousel">
+		                <div class="carousel-inner">
+		                    <div class="carousel-item active">
+		                        <img src="https://www.yonex.com/us/media/catalog/product/c/m/cm01_2.png?quality=80&fit=bounds&height=819&width=600&canvas=600:819" class="d-block w-100" alt="Album Cover">
+		                    </div>
+		                    <div class="carousel-item">
+		                        <img src="https://www.victorsport.com/files/en_us/product/more/107392_0_20231128165148.jpg" class="d-block w-100" alt="Lightstick">
+		                    </div>
+		                    <div class="carousel-item">
+		                        <img src="https://www.yonex.com/media/catalog/product/a/l/all_shbcfz3-shbcfz3mex-239-1_1_2.png?quality=80&fit=bounds&height=819&width=600&canvas=600:819" class="d-block w-100" alt="Merchandise">
+		                    </div>
+		                </div>
+		                <button class="carousel-control-prev" type="button" data-bs-target="#merchCarousel" data-bs-slide="prev">
+		                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		                    <span class="visually-hidden">Previous</span>
+		                </button>
+		                <button class="carousel-control-next" type="button" data-bs-target="#merchCarousel" data-bs-slide="next">
+		                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		                    <span class="visually-hidden">Next</span>
+		                </button>
+		            </div>
+		        </div>
+
+		        <!-- Text Column -->
+		        <div class="col-md-6 col-12 d-flex align-items-center">
+		            <div class="text-beside-carousel">
+		                <h2 class="text-center">Why Choose Us?</h2>
+		                <p class="text-justify">Our shop offers high-quality equipment from top brands, ensuring you get the best gear for your game. We provide expert advice and a wide selection at competitive prices, with fast shipping to get you on the court quickly. Customer satisfaction is our priority, with easy returns and exchanges for peace of mind.</p>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+<!-- FEATURED PRODUCTS -->
+		<div class="container py-5">
+		    <h2 class="text-center mb-4">Featured Products</h2>
+		    <div class="row row-cols-1 row-cols-md-3 g-4">
+		        <div class="col">
+		            <div class="card h-100">
+		                <img src="https://www.yonex.com/media/catalog/product/i/n/int_nf-700pl_339-1_2_1.png?quality=80&fit=bounds&height=&width=&canvas=:" class="card-img-top" alt="Album Cover">
+		                <div class="card-body">
+		                    <h5 class="card-title">NANOFLARE 700 PLAY</h5>
+		                    <p class="card-text">Experience quicker swings, precise shots, and improved maneuverability with a special emphasis on deep clears.</p>
+		                </div>
+		                <div class="card-footer">
+		                    <small class="text-muted">New Arrival</small>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col">
+		            <div class="card h-100">
+		                <img src="https://www.yonex.com/media/catalog/product/3/a/3ax88d-g_076-1_02.png?quality=80&fit=bounds&height=819&width=600&canvas=600:819" alt="Astrox 88D Game">
+		                <div class="card-body">
+		                    <h5 class="card-title">ASTROX 88D GAME</h5>
+		                    <p class="card-text">With the new 2G-Nanomesh Neo, the 3rd Generation Astrox 88D Game racket has a more livelier shaft, providing quick flex and snapback to maximize its power.</p>
+		                </div>
+		                <div class="card-footer">
+		                    <small class="text-muted">Best Seller</small>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col">
+		            <div class="card h-100">
+		                <img src="https://www.yonex.com/media/catalog/product/b/a/background_113_1_2.png?quality=80&fit=bounds&height=819&width=600&canvas=600:819" class="card-img-top" alt="Merchandise">
+		                <div class="card-body">
+		                    <h5 class="card-title">POWER CUSHION COMFORT Z</h5>
+		                    <p class="card-text">The POWER CUSHION COMFORT series is characterized by its high cushioning performance and propulsion</p>
+		                </div>
+		                <div class="card-footer">
+		                    <small class="text-muted">Limited Edition</small>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<footer class="bg-light text-center text-lg-start">
+		    <div class="text-center p-3">
+		        © 2024 JY Store: All rights reserved.
+		    </div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+		<script>
+		    document.getElementById('merchCarousel').addEventListener('slid.bs.carousel', function () {
+		        console.log('Carousel transitioned to the next item');
+		    });
+		</script>
+
+	</body>
+</html>
